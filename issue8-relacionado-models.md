@@ -2,7 +2,7 @@
 
 Cookbook do treinamento de Laravel básico, para a resolução das issues propostas.
 
-## Issue 7 - Criar model e migrations para Turma
+## Issue 8 - Relacionando os models Disciplina e Turma
 
 - Adicione o método disciplina ao model Turma (app/Turma.php)
 ```php
