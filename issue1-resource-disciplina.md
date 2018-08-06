@@ -11,7 +11,7 @@ Cookbook do treinamento de Laravel básico, para a resolução das issues propos
 
 - Edite o arquivo de migrations (***create_disciplinas_table.php)
 ```php
-    /* Adicione os campos ao corpo do método up
+    /* Adicione os campos ao corpo do método up */
     $table->string('titulo');
     $table->text('ementa');
 ```
