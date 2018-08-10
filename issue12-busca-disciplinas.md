@@ -7,11 +7,11 @@ Cookbook do treinamento de Laravel básico, para a resolução das issues propos
 - Crie o método search no DisciplinaController
 ```php
     public function search(Request $request)
-	{
-		$text = $request->text;
-		$disciplinas = Disciplina::where('titulo', 'LIKE', "%{$text}%")->get();
-		return view('disciplinas.index',compact('disciplinas'));
-	}
+    {
+	$text = $request->text;
+	$disciplinas = Disciplina::where('titulo', 'LIKE', "%{$text}%")->get();
+	return view('disciplinas.index',compact('disciplinas'));
+    }
 ```
 
 - Adicione o método search ao except do auth, no construtor do DisciplinaController
